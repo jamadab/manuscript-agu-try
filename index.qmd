@@ -56,7 +56,7 @@ box()
 ```
 
 ```{r}
-#| include: false
+#| output: false
 avg_years_between_eruptions <- mean(diff(eruptions[-n_eruptions]))
 avg_years_between_eruptions
 ```
